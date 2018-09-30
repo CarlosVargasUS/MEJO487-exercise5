@@ -146,8 +146,7 @@ function compare(){
   for(i=0; i<allStars.length; i++){
    for(j=0; j<players.length; j++){
      if(allStars[i].first == players[j].first){
-
-      fullNames += players[j].first + ' '+ players[j].last + '<br>';
+      fullNames += '<br>'+ players[j].first + ' '+ players[j].last ;
      }
    }
   }
